@@ -1,0 +1,11 @@
+{
+	"name": "melons",
+	"version": "1.0.0",
+	"description": "First melon bot!",
+	"main": "bot.js",
+	"author": "Solle",
+	"dependencies": {
+		"discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
+		"winston": "^3.1.0"
+	}
+}
