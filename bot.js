@@ -4,6 +4,12 @@ const rando_melonimgs = [
 'https://i5.walmartimages.ca/images/Large/805/2_r/6000196088052_R.jpg',
 'https://paradiset.global.ssl.fastly.net/media/catalog/product/cache/c9e0b0ef589f3508e5ba515cde53c5ff/m/e/melon-cantaloupe-5afc34959bf45.jpg',
 'https://static.mathem.se/shared/images/products/large/melon-snoboll-klass1-2.jpg',
+'https://www.rareseeds.com/assets/1/14/DimRegular/Melon-Heart-of-Gold-DSC07333.jpg',
+'http://halalfoodie.ca/wp-content/uploads/2016/06/Screen-Shot-2016-06-09-at-11.36.06-PM-700x466.png',
+'https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-546041.jpg',
+'https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-176338.jpg',
+'https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-83969.jpg',
+
 ]
 
 client.on('ready', () => {
