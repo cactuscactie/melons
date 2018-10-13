@@ -10,7 +10,7 @@ client.on('message', message => {
     	message.reply('pong');
   	}
     if (message.content === "melon") {
-        message.channel.send("Who doesn't love a good batch of melons?", {files: ["./images/melon.png"]});
+        message.channel.send("Who doesn't love a good batch of melons?", {files: ["./images/melon.jpg"]});
     }
 });
 
