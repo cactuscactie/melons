@@ -15,7 +15,7 @@ client.on('message', message => {
     	message.reply('pong');
   	}
    if (message.content === "melon") {
-        message.channel.send("Who doesn't love a good batch of melons?", {files: rando_melonimgs[Math.floor(Math.random() * rando_melonimgs.length)]});
+        message.channel.send("Who doesn't love a good batch of melons?", {file: rando_melonimgs[Math.floor(Math.random() * rando_melonimgs.length)]});
     }
 });
 
