@@ -14,9 +14,8 @@ client.on('message', message => {
     if (message.content === 'ping') {
     	message.reply('pong');
   	}
-    if (message.content === "melon") {
-        message.channel.send(`Who doesn't love a good batch of melons? ${message.author} just ate a huge melon!`, {
-        file: rando_melonimgs[Math.floor(Math.random() * rando_melonimgs.length)]
+   if (message.content === "melon") {
+        message.channel.send("Who doesn't love a good batch of melons?", {files: ["./images/melon.jpg"]});
     }
 });
 
