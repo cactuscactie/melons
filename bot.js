@@ -26,6 +26,9 @@ client.on('message', message => {
     if(message.content === "m8") {
         message.channel.send("wot the fok did ye just say 2 us, man? i dropped out of newcastle primary skool im the sickest bloke ull ever meet & ive nicked 300 chocolate globbernaughts from tha corner shop. im trained in street fitin’ & im the strongest foker in tha entire newcastle gym. yer nothin to me but a cheeky lil dickhead w/ a hot mum & fake bling. ill waste u and smash a fokin bottle oer yer head bruv, i swer 2 christ. ya think u can fokin run ya gabber at me while sittin on yer arse behind a lil screen? think again wanka. im callin me homeboys rite now preparin for a proper rumble. tha rumble thatll make ur nan sore jus hearin about it. yer a waste bruv. my homeboys be all over tha place & ill beat ya to a proper fokin pulp with me fists wanka. if i aint satisfied w/ that ill borrow me m8s cricket paddle & see if that gets u the fok out o’ newcastle ya daft kunt. if ye had seen this bloody fokin mess commin ye might a’ kept ya gabber from runnin. but it seems yer a stewpid lil twat, innit? ima shite fury & ull drown in it m8. ur in proper mess ya knobhead.");
     }
+    if(message.content === "cj stina"){
+        message.channel.send("Enjoy a piece of history!", {file: [https://i.imgur.com/oSYQfDl.jpg]});
+    }
 
 });
 
