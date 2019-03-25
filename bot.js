@@ -53,6 +53,10 @@ client.on('message', message => {
     if(message.content === "CJ STINA"){
         message.channel.send("ENJOY A PIECE OF HISTORY!", {files: ["./images/IMG_2853.JPG"]});
     }
+    
+    if(message.content === "cj Stina"){
+        message.channel.send("Enjoy a piece of history!", {files: ["./images/IMG_2853.JPG"]});
+    }
 
 });
 
